@@ -17,3 +17,26 @@ I will use GPT2 (my trusted model I can run on my system easily, but I am using 
 There are two types of numbers bring crunched - SAE and raw. Just to show SAE misses out.
 
 https://colab.research.google.com/drive/1RhdafOFerOEFsL7Wdrph6tCEdcBGKBSv?usp=sharing
+
+2. My next target is to create aa transducer that can convert the raw, raw raw...in that code, into something that can be felt through the right hardware
+
+The path is simple 
+
+raw act -> reduce dimenions, -> signal encoding -> BCI/touch/sound output -> some human guy -> Safety judgement. 
+
+I will probably not be able to arrange the BCI or other hardware, I can create something for sound with speakers, but would that be enough?
+
+With sound I did an experiment some time back but it was only to play the activations as musical instrument. I might have to try something similar. I am calling it activation sonification. I am not very sure iif we can generate sounds like hearing a heartbeat by a doctor, but I will try.
+
+The experiment will be simple:
+
+Take two categories of raw raw raw (e.g., model running factual vs. counterfacual text - thru the counterfactual prompts.)
+Extract residual stream activations, reduce to ~10–20 dimensions (You tell me how thats done)
+Map dimensions to audio parameters: pitch, tempo, timbre, spatial position — using a library that I am yet to dic=scover
+Generate audio "signatures" for categore
+play two clips, ask "which clip came from a model running false information?"
+
+If its consistent - then sound can work.
+
+Else I got BCI .. something I am dreading, equipement is expensive so I have to use some soft simulator...stay possted for more on that...
+
