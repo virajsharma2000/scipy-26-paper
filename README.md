@@ -16,7 +16,7 @@ I will use GPT2 (my trusted model I can run on my system easily, but I am using 
 
 There are two types of numbers bring crunched - SAE and raw. Just to show SAE misses out.
 
-https://colab.research.google.com/drive/1RhdafOFerOEFsL7Wdrph6tCEdcBGKBSv?usp=sharing
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://google.com](https://colab.research.google.com/drive/1z9Jfxkp_r9RzLXcg4UlcxeWsQlcAn62H#scrollTo=c67GOPljhY-c))
 
 2. My next target is to create aa transducer that can convert the raw, raw raw...in that code, into something that can be felt through the right hardware
 
