@@ -15,8 +15,8 @@ We need sensors, lot of sensitive sensors that can tap into human wide capabilit
 I will use GPT2 (my trusted model I can run on my system easily, but I am using colab. And for SAE I will hook he Hooked instance to layer 8.
 
 There are two types of numbers bring crunched - SAE and raw. Just to show SAE misses out.
-This code below shows that the SAE Vs the raw activations numbers in a 3 test scenario to show that raw activations know something that SAE features don't. Its been done in a few ways first one shows the missing info (open in colab and run the large single cell, you will need HF secrets and permission to access your gooogle drive-> 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]([https://google.com](https://colab.research.google.com/drive/1z9Jfxkp_r9RzLXcg4UlcxeWsQlcAn62H#scrollTo=c67GOPljhY-c))
+This code below shows that the SAE Vs the raw activations numbers in a 3 test scenario to show that raw activations know something that SAE features don't. Its been done in a few ways first one shows the missing info (open in colab and run the large single cell, you will[ need HF secrets and permission to access your gooogle drive-> 
+(https://github.com/virajsharma2000/scipy-26-paper/blob/main/scipy-2026-paper-info-loss-in-sae-v2.ipynb)
 
 2. My next target is to create aa transducer that can convert the raw, raw raw...in that code, into something that can be felt through the right hardware
 
